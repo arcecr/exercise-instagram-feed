@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+body {
+  background: rgb(234, 234, 234);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #070605;
+  margin: 0;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, .1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.post_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.post_container article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+}
+
+.post_container article:last-child {
+  margin-bottom: 62px;  
+}
+
+.post_container > article header {
+  background: rgb(255, 255, 255);
+  padding: 0;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.post_container > article > header div {
+  padding: 17px;
+}
+
+.post_container > article > header div:first-child { 
+  float: left;
+  font-weight: bold;
+}
+
+.post_container > article > header div:last-child {
+  float: right;
+  color: rgb(167, 166, 165);
+}
+
+.post_container > article .post_content {
+  background: rgb(255, 255, 255);
+  height: 400px;
+}
+
+.post_container > article .post_description {
+  background: rgb(255, 255, 255);
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid rgb(234, 234, 234);
+}
+
+.post_container > article > .post_description p {
+  margin: 0;
+  padding: 16px;
+}
